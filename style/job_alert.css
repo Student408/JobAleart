@@ -1,0 +1,142 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: monospace, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page wrapper styles */
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    flex: 1;
+}
+
+/* Job listings styles */
+.job-listings {
+    max-width: 1400px; /* Increased max-width */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.job-listings h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Search form styles */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input[type="text"],
+form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px; /* Increased width */
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Job styles */
+.job {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.job h3 {
+    margin-bottom: 10px;
+}
+
+.job p {
+    margin-bottom: 5px;
+}
+
+.job a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.job a:hover {
+    text-decoration: underline;
+}
+
+/* Pagination styles */
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.pagination a:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+.footer {
+    color: #ebebeb;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .job-listings {
+        padding: 10px;
+    }
+
+    form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form input[type="text"],
+    form select {
+        width: 100%;
+        max-width: 400px; /* Increased max-width for mobile */
+    }
+}

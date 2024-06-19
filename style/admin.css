@@ -1,0 +1,76 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: monospace, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Admin form styles */
+.admin-form {
+    width: 90%; /* Set a percentage width */
+    max-width: 800px; /* Adjusted max-width */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.admin-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.admin-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.admin-form input[type="text"],
+.admin-form input[type="date"],
+.admin-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.admin-form textarea {
+    height: 100px;
+}
+
+.admin-form button {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.admin-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .admin-form {
+        padding: 10px;
+    }
+}

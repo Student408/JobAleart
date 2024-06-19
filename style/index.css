@@ -1,0 +1,110 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: monospace, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ebebeb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: linear-gradient(#007bff, #ebebeb);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    height: 600px;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative; /* Added this line */
+}
+
+/* Add banner styles */
+.hero .banner {
+    position: absolute; /* Added this line */
+    top: 0; /* Adjust as needed */
+    width: 100%;
+    height: auto;
+}
+
+/* Hero content styles */
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Featured jobs section styles */
+.featured-jobs {
+    margin-top: 20px;
+}
+
+.job {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.job h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.job p {
+    margin-bottom: 5px;
+}
+
+.job a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.job a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    .job {
+        padding: 10px;
+    }
+}

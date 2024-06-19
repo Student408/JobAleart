@@ -1,0 +1,86 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: monospace, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Page wrapper styles */
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    flex: 1;
+}
+
+/* Job details styles */
+.job-details {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.job-details h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.job-details h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.job-details p {
+    margin-bottom: 10px;
+}
+
+.job-details p strong {
+    font-weight: bold;
+}
+
+.job-details a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.job-details a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .job-details {
+        padding: 10px;
+    }
+}
