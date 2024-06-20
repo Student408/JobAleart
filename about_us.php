@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>About Us</title>
+    <link rel="icon" href="logo.svg" type="image/svg+xml">
     <link rel="stylesheet" href="./style/style.css">
     <?php include 'header.php'; ?>
 </head>

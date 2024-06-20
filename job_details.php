@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Job Details</title>
+    <link rel="icon" href="logo.svg" type="image/svg+xml">
     <link rel="stylesheet" href="./style/job_details.css">
 </head>
 <body>

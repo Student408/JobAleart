@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Job Alerts</title>
+    <link rel="icon" href="logo.svg" type="image/svg+xml">
     <link rel="stylesheet" href="./style/job_alert.css">
 </head>
 <body>

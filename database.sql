@@ -26,6 +26,13 @@
     ```
 
 
+CREATE TABLE admin (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    password_hash VARCHAR(255) NOT NULL
+);
+
+
 ### Configuration
 1. Update the `db.php` file with your database credentials.
 
