@@ -19,7 +19,7 @@
         </div>
     </section>
 
-    <div class="container">
+    <div class="icontainer">
         <div class="featured-jobs">
             <h2>Featured Job Alerts</h2>
             <?php
